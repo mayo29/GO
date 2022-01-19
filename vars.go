@@ -29,4 +29,9 @@ func main() {
 	*stringPointer = "jhon"
 	fmt.Println(*stringPointer) //should print jhon
 
+	//each call to new returns a distint adress example:
+	p1 := new(int)
+	p2 := new(int)
+	fmt.Println(p1 == p2) //comparing between there adresses should give us false
+
 }
