@@ -1,0 +1,1 @@
+A repository to practice learning the various aspects of the go language
