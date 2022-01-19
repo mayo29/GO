@@ -14,4 +14,7 @@ func main() {
 	p := &name3     //p is a pointer that stores name3 adress
 	fmt.Println(*p) //this will print out the value pointed by p which is avi wizman
 
+	var pointer *int     //the zero value for a pointer is nil
+	fmt.Println(pointer) //this will print out nil
+
 }
